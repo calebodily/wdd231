@@ -1,0 +1,18 @@
+/* 
+terra cotta #E07A5F
+Deep slate blue #3D405B
+
+*/
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
