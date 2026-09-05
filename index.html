@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cale's Web Portfolio</title>
+    <meta name="description" content="A portfolio containing what classes I have done and information about me">
+    <meta name="author" content="Cale Bodily">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/last-modified.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/alarm-fill.svg" alt="site logo" width="512" height="512">
+        <span>Cale Bodily</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="#">Chamber of Commerce Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>About Me</h2>
+            <p class="font-size">Hi, my name is Cale Bodily. I come from a family of 5. My hobbies include board games and video games. I have lived in Utah my whole life. I am currently enrolled at BYU pathways and have enjoyed learning from the classes!</p>
+        </section>
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/profile-picture.jpg" alt="Cale Bodily Profile Picture" loading="lazy">
+        </section>
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+            <button id="all-courses" class="course-filter">All Courses</button>
+            <button id="wdd-courses" class="course-filter">WDD Courses</button>
+            <button id="cse-courses" class="course-filter">CSE Courses</button>
+            <div id="card"></div>
+            <p class="font-size flex" >The total credits for course listed above is <span id="credit" class="font-size"></span></p>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/calebodily?tab=repositories" targets="_blank"><img src="images/github.svg"
+                    alt="github" width="16" height="16"></a>
+            <a href="www.linkedin.com/in/cale-bodily-297374371" targets="_blank"><img src="images/linkedin.svg"
+                    alt="linkedin" width="16" height="16"></a>
+            <a href="https://www.facebook.com/profile.php?id=100087371875289" targets="_blank"><img
+                    src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+        </div>
+        <p>
+            &copy;
+            <span id="currentYear"></span>
+            Cale Bodily, UT
+        </p>
+        <p>
+            Last Modified:
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+
+</html>
