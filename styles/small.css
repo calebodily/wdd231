@@ -192,5 +192,5 @@ footer {
 }
 
 .social a:hover {
-    background-color: var(--background-color);
+    background-color: var(--secondary-color);
 }
