@@ -22,7 +22,7 @@ function MemberCard(member) {
         img.setAttribute('src', participant.img_file);
         img.setAttribute('alt', `Image of  ${participant.name}`);
         img.setAttribute('loading', 'lazy');
-        img.setAttribute('width', '450');
+        img.setAttribute('width', '450px');
         img.setAttribute('height', 'auto');
 
         card.appendChild(name);
