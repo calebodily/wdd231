@@ -1,12 +1,15 @@
 @media only screen and (min-width: 38rem) {
 
-    header, main, nav, footer {
+    header,
+    main,
+    nav,
+    footer {
         max-width: 900px;
         margin: 0 auto;
     }
 
     header {
-        grid-template-columns: 24px auto;
+        grid-template-columns: 24px auto 1fr;
     }
 
     .hamburger {
@@ -15,7 +18,9 @@
 
     .navigation {
         display: block;
-        border-bottom: solid 1px #ddd;
+        border-bottom: none;
+        grid-column: 3 / 4;
+        margin-right: 0;
     }
 
     .navigation ul {
@@ -30,4 +35,22 @@
         max-width: 400px;
         margin: 0 auto;
     }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    #card {
+            grid-template-columns: 1fr 1fr;
+            column-gap: 15px;
+        }
 }

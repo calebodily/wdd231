@@ -1,4 +1,4 @@
-<!-- fix nav, style footer, step 5, check rubric -->
+<!-- step 5, check rubric -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,12 +7,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brigham City Chamber of Commerce Directory</title>
-    <meta name="description" content="A directory for businesses in a chamber of commerce located in Brigham City, Utah">
+    <meta name="description"
+        content="A directory for businesses in a chamber of commerce located in Brigham City, Utah">
     <meta name="author" content="Cale Bodily">
     <link rel="icon" href="images/favicon.ico">
     <meta property="og:title" content="Brigham City Chamber of Commerce Directory">
-    <meta property="og:description"
-        content="Find local businesess near you in Brigham City, Utah">
+    <meta property="og:description" content="Find local businesess near you in Brigham City, Utah">
     <meta property="og:url" content="https://calebodily.github.io/wdd231/chamber/directory.html">
     <meta property="og:image" content="https://calebodily.github.io/wdd231/chamber/images/mountain-biking.webp">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -21,6 +21,10 @@
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/last-modified.js" defer></script>
+    <script src="scripts/members.js" defer></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -28,55 +32,59 @@
         <img src="images/people.svg" alt="site logo" width="512" height="512">
         <span>Brigham City Chamber of Commerce</span>
         <button id="ham-btn" class="hamburger" aria-label="Menu Button"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="directory.html">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav id="nav-bar" class="navigation">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="current"><a href="directory.html">Directory</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Discover</a></li>
-        </ul>
-    </nav>
     <main>
-        
+        <h1>Directory</h1>
+        <button id="grid">Grid</button>
+        <button id="list">List</button>
+        <div id="card"></div>
     </main>
     <footer>
-        <span>
-            Brigham City Chamber of Commerce
-        </span>
-        <p>
-            875 N 468 W Brigham City, Utah, USA, 84302
-        </p>
-        <p>
-            info@brighamcity.org
-        </p>
-        <p>
-            (435) 834-7397
-        </p>
+        <div>
+            <span>
+                Brigham City Chamber of Commerce
+            </span>
+            <p>
+                875 N 468 W Brigham City, Utah, USA, 84302
+            </p>
+            <p>
+                info@brighamcity.org
+            </p>
+            <p>
+                (435) 834-7397
+            </p>
+        </div>
 
         <div class="social">
             <a href="https://github.com/calebodily?tab=repositories" target="_blank"><img src="images/github.svg"
                     alt="github" width="16" height="16"></a>
-            <a href="www.linkedin.com/in/cale-bodily-297374371" target="_blank"><img src="images/linkedin.svg"
+            <a href="https://www.linkedin.com/in/cale-bodily-297374371" target="_blank"><img src="images/linkedin.svg"
                     alt="linkedin" width="16" height="16"></a>
             <a href="https://www.facebook.com/profile.php?id=100087371875289" target="_blank"><img
                     src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
         </div>
-        <p>
-            WDD231 Class Project
-        </p>
-        <p>
-            Cale Bodily
-        </p>
-        <p>
-            &copy;
-            <span id="currentYear"></span>
-            Brigham City Chamber of Commerce
-        </p>
-        <p>
-            Last Modification:
-            <span id="lastModified"></span>
-        </p>
+        <div>
+            <p>
+                WDD231 Class Project || Cale Bodily
+            </p>
+            <p>
+                &copy;
+                <span id="currentYear"></span>
+                Brigham City Chamber of Commerce
+            </p>
+            <p>
+                Last Modification:
+                <span id="lastModified"></span>
+            </p>
+        </div>
     </footer>
 </body>
 

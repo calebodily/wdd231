@@ -2,6 +2,7 @@
     --primary-color: #F3C3F7;
     --secondary-color: #3f2727;
     --background-color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* HEADER */
@@ -9,9 +10,11 @@ header {
     display: grid;
     grid-template-columns: 24px auto 44px;
     padding: 5px 0 5px 10px;
-    align-items: end;
+    align-items: center;
+    background-color: var(--primary-color);
     border-bottom: solid 1px var(--background-color);
     column-gap: 8px;
+    font-size: .8rem;
 }
 
 header img {
@@ -22,14 +25,14 @@ header img {
 }
 
 header span {
-    font-size: 1.5rem;
-    color: var(--primary-color);
+    font-size: 1.2rem;
+    color: var(--secondary-color);
 }
 
 .hamburger {
     background: none;
     border: none;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     cursor: pointer;
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -47,6 +50,8 @@ header span {
 
 .navigation {
     display: none;
+    grid-column: 1 / 4;
+    margin-right: 11px;
 }
 
 .navigation.show {
@@ -62,7 +67,7 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-decoration: none;
     border-bottom: solid 1px var(--background-color);
 }
@@ -72,23 +77,63 @@ header span {
 }
 
 .navigation a:hover {
-    background-color: var(--secondary-color);
+    background-color: white;
 }
 
 /* MAIN */
 
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+main h1 {
+    grid-column: 1 / 3;
+}
+
+main button {
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    width: 100px;
+}
+
+#grid {
+    justify-self: end;
+    margin-right: 7px;
+}
+
+#list {
+    margin-left: 7px;
+}
+
+#card {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+.member-card, .member-list {
+    border: solid black 1px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+}
 
 /* FOOTER */
 
 footer {
     background-color: var(--background-color);
     padding: 1rem 10px;
-    text-align: center;
 }
 
 .social {
     display: flex;
-    justify-content: center;
     column-gap: 10px;
 }
 
@@ -108,5 +153,5 @@ footer {
 }
 
 .social a:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }

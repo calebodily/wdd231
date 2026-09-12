@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Walmart",
+        "adresses": "1200S Commerce Way, Perry, UT",
+        "phone_number": "435-734-9660",
+        "url": "https://www.walmart.com/store/3454-perry-ut",
+        "img_file": "images/walmart.webp",
+        "membership-level": "3"
+    },
+    {
+        "name": "Wendy's",
+        "adresses": "715S Main Street, Brigham City, UT",
+        "phone_number": "435-734-1208",
+        "url": "https://locations.wendys.com/united-states/ut/brigham-city/715-so-main",
+        "img_file": "images/wendys.webp",
+        "membership-level": "3"
+    },
+    {
+        "name": "Old Grist Mill",
+        "adresses": "750W 1075S Suite A, Brigham City, UT",
+        "phone_number": "435-723-6228",
+        "url": "https://oldgristmillbreadcompany.com/",
+        "img_file": "images/old-grist-mill.webp",
+        "membership-level": "2"
+    },
+    {
+        "name": "Jakimelis Mexican Bakery",
+        "adresses": "142N Main Street, Brigham City, UT",
+        "phone_number": "435-339-4133",
+        "url": "https://www.google.com/maps/place/Jakimelis+Mexican+Bakery/@41.513845,-112.015477,16z/data=!3m1!4b1!4m6!3m5!1s0x87537ae25d41cb97:0xdd7db210be9e9547!8m2!3d41.513845!4d-112.015477!16s%2Fg%2F11gfnjhc3p?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+        "img_file": "images/jakimelis.webp",
+        "membership-level": "1"
+    },
+    {
+        "name": "Kent's Market",
+        "adresses": "260N Main Street, Brigham City, UT",
+        "phone_number": "435-734-9565",
+        "url": "https://www.kentsgrocery.com/locations/brigham-city",
+        "img_file": "images/kents.webp",
+        "membership-level": "3"
+    },
+    {
+        "name": "Smith's Food and Drug Center",
+        "adresses": "156S Main Street, Brigham City, UT",
+        "phone_number": "435-734-2500",
+        "url": "https://www.smithsfoodanddrug.com/stores/grocery/ut/brigham-city/156-s-main-st-brigham-city-ut/706/00178",
+        "img_file": "images/smiths.webp",
+        "membership-level": "3"
+    },
+    {
+        "name": "Dairy Queen Grill and Chill",
+        "adresses": "1675W 1100S, Brigham City, UT",
+        "phone_number": "435-723-2500",
+        "url": "https://www.dairyqueen.com/en-us/locations/ut/perry/1675-w-1100-s/15376/",
+        "img_file": "images/dairy-queen.webp",
+        "membership-level": "3"
+    }
+]
