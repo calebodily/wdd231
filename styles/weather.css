@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+
+main {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto 20px;
+}
