@@ -4,22 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brigham City Chamber of Commerce Directory</title>
+    <title>Brigham City Chamber of Commerce Home Page</title>
     <meta name="description"
-        content="A directory for businesses in a chamber of commerce located in Brigham City, Utah">
+        content="A home page showing events, weather, and company spotlights for businesses in a chamber of commerce located in Brigham City, Utah">
     <meta name="author" content="Cale Bodily">
     <link rel="icon" href="images/favicon.ico">
     <meta property="og:title" content="Brigham City Chamber of Commerce Directory">
     <meta property="og:description" content="Find local businesess near you in Brigham City, Utah">
-    <meta property="og:url" content="https://calebodily.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://calebodily.github.io/wdd231/chamber/index.html">
     <meta property="og:image" content="https://calebodily.github.io/wdd231/chamber/images/mountain-biking.webp">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/home-small.css">
+    <link rel="stylesheet" href="styles/home-larger.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/last-modified.js" defer></script>
-    <script src="scripts/members.js" defer></script>
+    <script src="scripts/spotlight-members.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -34,17 +35,51 @@
         <button id="ham-btn" class="hamburger" aria-label="Menu Button"></button>
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="current"><a href="directory.html">Directory</a></li>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Directory</h1>
-        <button id="grid">Grid</button>
-        <button id="list">List</button>
+        <h1>Brigham City Commerce</h1>
+        <div class="hero">
+            <img src="images/mountain-biking.webp" alt="mountain biker">
+            <p>Join the Membership Now! Support Local Businesses Near You!</p>
+            <a href="">Join</a>
+        </div>
+        <div class="events">
+            <h2>Peach Days</h2>
+            <p>Come join the fun at Peach Days Celebration. Parade at 9:00 am Saturday September 11 on Main Street.
+                Stalls and rides will also be available later during the day.</p>
+        </div>
+        <div class="events">
+            <h2>Book Day</h2>
+            <p>Come to the Library to recieve a free book being given away. Stay to look through library used books for
+                sale for a fundraiser. Happening 10:00am-1:00pm September 15 at the local Library.</p>
+        </div>
+        <div class="weather">
+            <p>Brigham City Temperature on <span id="temp-date"></span>: <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption id="fig"></figcaption>
+            </figure>
+        </div>
+        <div class="weather">
+            <p>Brigham City Temperature on <span id="temp-date2"></span>: <span id="current-temp2"></span></p>
+            <figure>
+                <img id="weather-icon2" src="" alt="">
+                <figcaption id="fig2"></figcaption>
+            </figure>
+        </div>
+        <div class="weather">
+            <p>Brigham City Temperature on <span id="temp-date3"></span>: <span id="current-temp3"></span></p>
+            <figure>
+                <img id="weather-icon3" src="" alt="">
+                <figcaption id="fig3"></figcaption>
+            </figure>
+        </div>
         <div id="card"></div>
     </main>
     <footer>

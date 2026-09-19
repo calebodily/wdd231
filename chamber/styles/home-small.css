@@ -82,32 +82,9 @@ header span {
 
 /* MAIN */
 
-
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-}
-
 main h1 {
-    grid-column: 1 / 3;
+    text-align: center;
     color: var(--secondary-color);
-}
-
-main button {
-    padding: 5px;
-    border-radius: 3px;
-    margin-bottom: 15px;
-    width: 100px;
-}
-
-#grid {
-    justify-self: end;
-    margin-right: 7px;
-}
-
-#list {
-    margin-left: 7px;
 }
 
 #card {
@@ -124,6 +101,55 @@ main button {
     padding-bottom: 15px;
     margin-bottom: 15px;
     background-color: var(--background-color);
+    color: var(--secondary-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero p {
+    display: block;
+    float: left;
+    position: absolute;
+    width: 90%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: var(--secondary-color);
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.hero a {
+    display: block;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: var(--secondary-color);
+    font-size: 1.5em;
+}
+
+main .events {
+    border: solid 1px black;
+    margin-top: 15px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+main .weather {
+    border: solid 1px black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: var(--primary-color);
     color: var(--secondary-color);
 }
 
