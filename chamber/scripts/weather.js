@@ -39,6 +39,8 @@ function displayResults(data) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', data.list[0].weather[0].description);
     weatherIcon.setAttribute('crossorigin', 'anonymous')
+    weatherIcon.setAttribute('width', '100px')
+    weatherIcon.setAttribute('height', 'auto')
     captionDesc.textContent = `${data.list[0].weather[0].description}`;
     currentTemp2.innerHTML = `${data.list[8].main.temp}&deg;F`;
     TempDate2.innerHTML = new Date(data.list[8].dt * 1000).toLocaleDateString();
@@ -46,6 +48,8 @@ function displayResults(data) {
     weatherIcon2.setAttribute('src', iconsrc2)
     weatherIcon2.setAttribute('alt', data.list[8].weather[0].description)
     weatherIcon2.setAttribute('crossorigin', 'anonymous')
+    weatherIcon2.setAttribute('width', '100px')
+    weatherIcon2.setAttribute('height', 'auto')
     captionDesc2.textContent = `${data.list[8].weather[0].description}`;
     currentTemp3.innerHTML = `${data.list[16].main.temp}&deg;F`;
     TempDate3.innerHTML = new Date(data.list[16].dt * 1000).toLocaleDateString();
@@ -53,6 +57,8 @@ function displayResults(data) {
     weatherIcon3.setAttribute('src', iconsrc3)
     weatherIcon3.setAttribute('alt', data.list[16].weather[0].description)
     weatherIcon3.setAttribute('crossorigin', 'anonymous')
+    weatherIcon3.setAttribute('width', '100px')
+    weatherIcon3.setAttribute('height', 'auto')
     captionDesc3.textContent = `${data.list[16].weather[0].description}`;
 }
 
