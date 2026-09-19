@@ -38,18 +38,21 @@ function displayResults(data) {
     const iconsrc = `https://openweathermap.org/img/w/${data.list[0].weather[0].icon}.png`;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', data.list[0].weather[0].description);
+    weatherIcon.setAttribute('crossorigin', 'anonymous')
     captionDesc.textContent = `${data.list[0].weather[0].description}`;
     currentTemp2.innerHTML = `${data.list[8].main.temp}&deg;F`;
     TempDate2.innerHTML = new Date(data.list[8].dt * 1000).toLocaleDateString();
     const iconsrc2 = `https://openweathermap.org/img/w/${data.list[8].weather[0].icon}.png`;
     weatherIcon2.setAttribute('src', iconsrc2)
     weatherIcon2.setAttribute('alt', data.list[8].weather[0].description)
+    weatherIcon2.setAttribute('crossorigin', 'anonymous')
     captionDesc2.textContent = `${data.list[8].weather[0].description}`;
     currentTemp3.innerHTML = `${data.list[16].main.temp}&deg;F`;
     TempDate3.innerHTML = new Date(data.list[16].dt * 1000).toLocaleDateString();
     const iconsrc3 = `https://openweathermap.org/img/w/${data.list[16].weather[0].icon}.png`;
     weatherIcon3.setAttribute('src', iconsrc3)
     weatherIcon3.setAttribute('alt', data.list[16].weather[0].description)
+    weatherIcon3.setAttribute('crossorigin', 'anonymous')
     captionDesc3.textContent = `${data.list[16].weather[0].description}`;
 }
 
