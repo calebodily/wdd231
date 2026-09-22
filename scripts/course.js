@@ -85,28 +85,34 @@ const cse = document.querySelector('#cse-courses');
 function ClassCard(courses) {
     const container = document.querySelector("#card");
     container.innerHTML = "";
-    courses.forEach(course => {
-        let card = document.createElement("section");
-        card.classList.add("course-card");
-        let checkmark = document.createElement("p");
-        let name = document.createElement("p")
 
+    courses.forEach(course => {
+        const card = document.createElement("button");
+        card.classList.add("course-card");
+        const checkmark = document.createElement("p");
+        const name = document.createElement("p");
         name.textContent = `${course.subject} ${course.number}`;
         if (course.completed === true) {
             checkmark.textContent = "✅";
-        }
-        else {
+        } else {
             checkmark.textContent = "❌";
         }
 
         card.appendChild(checkmark);
         card.appendChild(name);
 
-        document.querySelector("#card").appendChild(card);
+        card.addEventListener("click", () => {
+            displayCourseDetails(course);
+        });
 
-        const credit = document.querySelector("#credit");
-        credit.textContent = courses.reduce((total, course) => total + course.credits, 0);
+        container.appendChild(card);
     });
+
+    const credit = document.querySelector("#credit");
+    credit.textContent = courses.reduce(
+        (total, course) => total + course.credits,
+        0
+    );
 }
 
 ClassCard(courses);
@@ -114,7 +120,7 @@ ClassCard(courses);
 
 all.addEventListener("click", (event) => {
     event.preventDefault();
-        ClassCard(courses);
+    ClassCard(courses);
 })
 
 wdd.addEventListener("click", (event) => {
@@ -128,3 +134,23 @@ cse.addEventListener("click", (event) => {
     ClassCard(courses.filter(course =>
         course.subject === "CSE"));
 })
+
+const courseDetails = document.querySelector('#course-details');
+
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = `
+        <button id="closeModal" class="modal-close" aria-label="Close course details">❌</button>
+        <h2>${course.subject} ${course.number}</h2>
+        <h3>${course.title}</h3>
+        <p><strong>Credits:</strong> ${course.credits}</p>
+        <p><strong>Certificate:</strong> ${course.certificate}</p>
+        <p>${course.description}</p>
+        <p><strong>Technologies:</strong> ${course.technology.join(', ')}</p>
+    `;
+
+    courseDetails.showModal();
+
+    document.querySelector('#closeModal').addEventListener('click', () => {
+        courseDetails.close();
+    });
+}
