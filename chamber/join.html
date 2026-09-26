@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brigham City Chamber of Commerce Home Page</title>
+    <title>Brigham City Chamber of Commerce Join Page</title>
     <meta name="description"
-        content="A home page showing events, weather, and company spotlights for businesses in a chamber of commerce located in Brigham City, Utah">
+        content="A form page that displays the different memberships for companies that want to join the chamber of commerce and a form to allow you to join">
     <meta name="author" content="Cale Bodily">
     <link rel="icon" href="images/favicon.ico">
     <meta property="og:title" content="Brigham City Chamber of Commerce Directory">
@@ -53,11 +53,11 @@
 
             <label>Email Adress<input type="email" required name="email" title="email" autocomplete="email" placeholder="myemail@gmail.com"></label>
 
-            <label>Phone Number<input type="tel" required name="phone" title="phone" autocomplete="tel-national"></label>
+            <label>Phone Number<input type="tel" required name="phone" title="phone" autocomplete="tel"></label>
 
             <label>Organization's Name<input type="text" required name="organizations_name" title="organization's name" autocomplete="organization"></label>
 
-            <label>Membership Level</label><select name="membership_level" title="membership level">
+            <label for="membership_level">Membership Level</label><select id="membership_level" name="membership_level" title="membership level">
                 <option value="np">Non Profit Organization</option>
                 <option value="bronze">Bronze Membership</option>
                 <option value="silver">Silver Membership</option>
