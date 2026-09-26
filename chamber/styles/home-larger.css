@@ -36,6 +36,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         align-items: center;
         text-align: center;
+        margin-top: 15px;
     }
 
     .social {
@@ -63,6 +64,12 @@
 
     .hero a {
         font-size: 2em;
+    }
+
+    .events, .weather {
+        width: 280px;
+        height: 200px;
+        justify-self: center;
     }
 
 }

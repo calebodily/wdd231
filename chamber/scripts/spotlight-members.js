@@ -5,16 +5,23 @@ function MemberCard(member) {
         let card = document.createElement("section");
         card.classList.add("member-card");
         let name = document.createElement("h2");
-        let adresses = document.createElement("p")
-        let phone = document.createElement("p")
-        let url = document.createElement("a")
-        let img = document.createElement("img")
+        let adresses = document.createElement("p");
+        let phone = document.createElement("p");
+        let membership = document.createElement("p");
+        let url = document.createElement("a");
+        let img = document.createElement("img");
 
         name.textContent = `${participant.name}`;
         url.setAttribute('href', `${participant.url}`);
         url.textContent = "Visit Website";
         phone.textContent = `${participant.phone_number}`;
         adresses.textContent = `${participant.adresses}`;
+        if (participant.membership_level == 2) {
+            membership.textContent = "Silver Membership";
+         }
+        if (participant.membership_level == 3) {
+            membership.textContent = "Gold Membership";
+        }
 
         img.setAttribute('src', participant.img_file);
         img.setAttribute('alt', `Image of  ${participant.name}`);
@@ -24,6 +31,7 @@ function MemberCard(member) {
 
         card.appendChild(name);
         card.appendChild(img);
+        card.appendChild(membership)
         card.appendChild(adresses);
         card.appendChild(phone);
         card.appendChild(url);
