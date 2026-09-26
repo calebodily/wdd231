@@ -14,13 +14,12 @@
     <meta property="og:url" content="https://calebodily.github.io/wdd231/chamber/join.html">
     <meta property="og:image" content="https://calebodily.github.io/wdd231/chamber/images/mountain-biking.webp">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/join-small.css">
-    <link rel="stylesheet" href="styles/join-larger.css">
+    <link rel="stylesheet" href="styles/thankyou-small.css">
+    <link rel="stylesheet" href="styles/thankyou-larger.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/last-modified.js" defer></script>
-    <script src="scripts/membership.js" defer></script>
-    <script src="scripts/form.js" defer></script>
+    <script src="scripts/form-results.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -43,53 +42,8 @@
         </nav>
     </header>
     <main>
-        <form method="get" action="thankyou.html">
-            <h1>Membership Form</h1>
-            <label>First Name<input type="text" required name="first_name" title="first name" autocomplete="given-name"></label>
-
-            <label>Last Name<input type="text" required name="last_name" title="last name" autocomplete="family-name"></label>
-
-            <label>Organization Title<input type="text" required name="organization_title" title="organization title" autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}"></label>
-
-            <label>Email Adress<input type="email" required name="email" title="email" autocomplete="email" placeholder="myemail@gmail.com"></label>
-
-            <label>Phone Number<input type="tel" required name="phone" title="phone" autocomplete="tel-national"></label>
-
-            <label>Organization's Name<input type="text" required name="organizations_name" title="organization's name" autocomplete="organization"></label>
-
-            <label>Membership Level</label><select name="membership_level" title="membership level">
-                <option value="np">Non Profit Organization</option>
-                <option value="bronze">Bronze Membership</option>
-                <option value="silver">Silver Membership</option>
-                <option value="gold">Gold Membership</option>
-            </select>
-
-            <label>Organization Description<textarea name="description" title="description"></textarea></label>
-
-            <input type="hidden" id="load_time" name="load_time" value="">
-
-            <button type="submit">Submit Organization for Review</button>
-        </form>
-        <div id="top">
-            <h2>Membership Gold</h2>
-            <button id="gold-button">Learn More</button>
-            <dialog id="gold"></dialog>
-        </div>
-        <div>
-            <h2>Membership Silver</h2>
-            <button id="silver-button">Learn More</button>
-            <dialog id="silver"></dialog>
-        </div>
-        <div>
-            <h2>Membership Bronze</h2>
-            <button id="bronze-button">Learn More</button>
-            <dialog id="bronze"></dialog>
-        </div>
-        <div>
-            <h2>Membership Non Profit</h2>
-            <button id="nonprofit-button">Learn More</button>
-            <dialog id="nonprofit"></dialog>
-        </div>
+        <div id="results"></div>
+        <a href="join.html">Back to Page</a>
     </main>
     <footer>
         <div>

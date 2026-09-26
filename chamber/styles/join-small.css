@@ -1,0 +1,189 @@
+:root {
+    --primary-color: #F3C3F7;
+    --secondary-color: #3f2727;
+    --background-color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* HEADER */
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-bottom: solid 1px var(--background-color);
+    column-gap: 8px;
+    font-size: .8rem;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 6px;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: var(--secondary-color);
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+/* NAVIGATION */
+
+.navigation {
+    display: none;
+    grid-column: 1 / 4;
+    margin-right: 11px;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-bottom: solid 1px var(--background-color);
+}
+
+.navigation li.current {
+    background-color: var(--background-color);
+}
+
+.navigation a:hover {
+    background-color: white;
+}
+
+/* MAIN */
+
+form {
+    background-color: var(--primary-color);
+    padding: 15px;
+    display: grid;
+    margin: 15px;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: var(--secondary-color);
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea, select{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+label, button {
+    color: var(--secondary-color);
+}
+
+main > div {
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 5px 0 20px 0;
+    animation-name: fadeColor;
+    animation-duration: 5s;
+}
+
+@keyframes fadeColor {
+    0% {
+        opacity: 0;
+        background-color: var(--secondary-color);
+    }
+    50% {
+        background-color: var(--primary-color);
+    }
+    100% {
+        opacity: 1;
+        background-color: var(--background-color);
+    }
+}
+
+dialog {
+    width: 80%;
+    max-width: 300px;
+    padding: 15px;
+    color: var(--secondary-color);
+}
+
+.modal-header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    background-color: white;
+}
+
+dialog h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.modal-close {
+    width: 44px;
+    height: 44px;
+}
+
+::backdrop {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem 10px;
+}
+
+.social {
+    display: flex;
+    column-gap: 10px;
+}
+
+.social a {
+    display: flex;
+    background-color: var(--background-color);
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover {
+    background-color: var(--primary-color);
+}
