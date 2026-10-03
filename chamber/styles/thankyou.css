@@ -82,79 +82,21 @@ header span {
 
 /* MAIN */
 
-form {
-    background-color: var(--primary-color);
-    padding: 15px;
-    display: grid;
+main {
     margin: 15px;
+    text-align: center;
 }
 
-h1 {
-    font-size: 1.5em;
-    color: var(--secondary-color);
-}
-
-input[type="text"], input[type="email"], input[type="tel"], textarea, select{
-    display: flex;
-    margin-bottom: 20px;
-}
-
-label, button {
-    color: var(--secondary-color);
-}
-
-main > div {
+#results {
     background-color: var(--background-color);
+    padding: 10px;
     color: var(--secondary-color);
-    margin-bottom: 20px;
-    text-align: center;
-    padding: 5px 0 20px 0;
-    animation-name: fadeColor;
-    animation-duration: 5s;
+    margin-bottom: 15px;
 }
 
-@keyframes fadeColor {
-    0% {
-        opacity: 0;
-        background-color: var(--secondary-color);
-    }
-    50% {
-        background-color: var(--primary-color);
-    }
-    100% {
-        opacity: 1;
-        background-color: var(--background-color);
-    }
-}
-
-dialog {
-    width: 80%;
-    max-width: 300px;
-    padding: 15px;
+main a {
     color: var(--secondary-color);
 }
-
-.modal-header {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    align-items: center;
-    background-color: white;
-}
-
-dialog h2 {
-    text-align: center;
-    margin: 0;
-}
-
-.modal-close {
-    width: 44px;
-    height: 44px;
-}
-
-::backdrop {
-    background-color: rgba(255, 255, 255, 0.7);
-}
-
 
 /* FOOTER */
 
@@ -186,4 +128,55 @@ footer {
 
 .social a:hover {
     background-color: var(--primary-color);
+}
+
+/* BIGGER SCREENS */
+
+@media only screen and (min-width: 38rem) {
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    header {
+        grid-template-columns: 24px auto 1fr;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        border-bottom: none;
+        grid-column: 3 / 4;
+        margin-right: 0;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    main {
+        margin: 15px auto;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social {
+        justify-content: center;
+    }
 }
