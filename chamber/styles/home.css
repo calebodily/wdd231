@@ -92,6 +92,7 @@ main h1 {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
+    width: 100%;
 }
 
 .member-card,
