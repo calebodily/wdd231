@@ -1,0 +1,66 @@
+[
+    {
+        "boardGame": "Azul",
+        "players": "2, 3, 4",
+        "age": "8+",
+        "time": 37,
+        "price": 35,
+        "imageUrl": "images/azul.webp"
+    },
+    {
+        "boardGame": "Flip 7",
+        "players": "3, 4, 5, 6, 7, 8, 9, 10+",
+        "age": "8+",
+        "time": 20,
+        "price": 10,
+        "imageUrl": "images/flip7.webp"
+    },
+    {
+        "boardGame": "Harmonies",
+        "players": "1, 2, 3, 4",
+        "age": "10+",
+        "time": 40,
+        "price": 35,
+        "imageUrl": "images/harmonies.webp"
+    },
+    {
+        "boardGame": "Harmonies: Pulse",
+        "players": "1, 2, 3, 4",
+        "age": "10+",
+        "time": 37,
+        "price": 9,
+        "imageUrl": "images/harmonies-pulse.webp"
+    },
+    {
+        "boardGame": "The Lord of the Rings: Fate of the Fellowship",
+        "players": "1, 2, 3, 4, 5",
+        "age": "14+",
+        "time": 105,
+        "price": 80,
+        "imageUrl": "images/fate-of-the-fellowship.webp"
+    },
+    {
+        "boardGame": "Magical Athlete",
+        "players": "2, 3, 4, 5, 6",
+        "age": "6+",
+        "time": 30,
+        "price": 30,
+        "imageUrl": "images/magical-athlete.webp"
+    },
+    {
+        "boardGame": "Sky Team",
+        "players": "2",
+        "age": "10+",
+        "time": 20,
+        "price": 35,
+        "imageUrl": "images/sky-team.webp"
+    },
+    {
+        "boardGame": "Wingspan Pocket",
+        "players": "1, 2, 3, 4, 5",
+        "age": "8+",
+        "time": 30,
+        "price": 17,
+        "imageUrl": "images/wingspan-pocket.webp"
+    }
+]
