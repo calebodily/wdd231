@@ -5,7 +5,39 @@
         "age": "8+",
         "time": 37,
         "price": 35,
-        "imageUrl": "images/azul.webp"
+        "stock": "in stock",
+        "imageUrl": "images/azul.webp",
+        "description": "Introduced by the Moors, azulejos (originally white and blue ceramic tiles) were fully embraced by the Portuguese when their king Manuel I, on a visit to the Alhambra palace in Southern Spain, was mesmerized by the stunning beauty of the Moorish decorative tiles. The king, awestruck by the interior beauty of the Alhambra, immediately ordered that his own palace in Portugal be decorated with similar wall tiles. As a tile-laying artist, you have been challenged to embellish the walls of the Royal Palace of Evora. In the game Azul, players take turns drafting colored tiles from suppliers to their player board. Later in the round, players score points based on how they've placed their tiles to decorate the palace. Extra points are scored for specific patterns and completing sets; wasted supplies harm the player's score. The player with the most points at the end of the game wins."
+    },
+    {
+        "boardGame": "Bomb Busters",
+        "players": "2, 3, 4, 5",
+        "age": "10+",
+        "time": 30,
+        "price": 30,
+        "stock": "out of stock",
+        "imageUrl": "images/bomb-busters.webp",
+        "description": "There is a bomb full of wires and the countdown has started... Who are you gonna call? YOU! To clear the bomb, you need to collaborate with your team of bomb disposal experts! Using the wires on the tile holder in front of you, try and figure out your teammates’ wires. Find and cut identical wires, but watch out, if you cut a red wire: BOOM! Use your equipment wisely to meet the varied challenges which get harder and harder. Tick tock tick tock... Will you figure it out before it’s too late? In Bomb Busters, there is a set of 48 normal wire cards numbered 1-12 (4 of each value) with some yellow and red wire cards. These are dealt out. Each mission is different, but your goal is always the same: go through all 12 numbers without blowing up! Players place the tiles on their stands and then take turns pointing at each others’ wires and guessing their values. If the guess is correct, the wires are cut. If not — the detonator advances! If you manage to cut all wires without blowing up — good job, the mission is completed! But if the bomb goes off - Try again! With 66 missions, there will be: 66 different ways to play depending on your moods (in order, by level of difficulty, favorite configuration). 66 challenges to play over and over (even if you already blew your top!). Plenty of tricky bombs which become more and more dangerous (but don’t get cut up about it!)"
+    },
+    {
+        "boardGame": "Catan",
+        "players": "3, 4",
+        "age": "10+",
+        "time": 90,
+        "price": 40,
+        "stock": "in stock",
+        "imageUrl": "images/catan.webp",
+        "description": "In CATAN (formerly The Settlers of Catan), players try to be the dominant force on the island of Catan by building settlements, cities and roads. On each turn dice are rolled to determine which resources the island produces. Players build structures by 'spending' resources (sheep, wheat, wood, brick and ore) which are represented by the relevant resource cards; each land type, with the exception of the unproductive desert, produces a specific resource: hills produce brick, forests produce wood, mountains produce ore, fields produce wheat, and pastures produce sheep. Set-up includes randomly placing large hexagonal tiles (each depicting one of the five resource-producing terrain types--or the desert) in a honeycomb shape and surrounding them with water tiles, some of which contain ports of exchange. A number disk, the value of which will correspond to the roll of two 6-sided dice, are placed on each terrain tile. Each player is given two settlements (think: houses) and roads (sticks) which are placed on intersections and borders of the terrain tiles. Players collect a hand of resource cards based on which terrain tiles their last-placed settlement is adjacent to. A robber pawn is placed on the desert tile. A turn consists of rolling the dice, collecting resource cards based on this dice roll and the position of settlements (or upgraded cities—think: hotels), turning in resource cards (if possible and desired) for improvements, trading cards at a port, possibly playing a development card, or trading resource cards with other players. If the dice roll is a 7, the active player moves the robber to a new terrain tile and steals a resource card from another player who has a settlement adjacent to that tile. Points are accumulated by building settlements and cities, having the longest road or the largest army (from some of the development cards), and gathering certain development cards that simply award victory points. When a player has gathered 10 points (some of which may be held in secret), s/he announces this and claims the win."
+    },
+    {
+        "boardGame": "Eternal Decks",
+        "players": "1, 2, 3, 4",
+        "age": "10+",
+        "time": 35,
+        "price": 35,
+        "stock": "out of stock",
+        "imageUrl": "images/eternal-decks.webp",
+        "description": "Eternal Decks is a limited communication co-operative game in which players try to complete the stage objectives before any one player cannot take an action. Players start the game with five cards in their deck, but will quickly look to acquire more cards from the various Eternals (characters within the game) who each have their own unique eight-card deck. On your turn, you must perform one action: Play a card (on the field, on the river, or by using an ability), Generate a jewel, Give a card to a teammate. There are restrictions when playing a card. All three rows in the field cannot have cards of the same color or same number next to each other. Additional restrictions are applied to a row based on the stage you are playing. Jewels are used to negate the negative effects brought on by the Eternals. The game has six stages, and the various stages will have you collect points, survive a ghost town, navigate a labyrinth, defeat a boss, and more to win the game!"
     },
     {
         "boardGame": "Flip 7",
@@ -13,7 +45,19 @@
         "age": "8+",
         "time": 20,
         "price": 10,
-        "imageUrl": "images/flip7.webp"
+        "stock": "in stock",
+        "imageUrl": "images/flip7.webp",
+        "description": "Flip over cards one by one without flipping the same number twice. Sound easy? Think again! This isn't just any deck of cards… In Flip 7 there's only one 1 card, two 2's, three 3’s, etc plus a bunch of special cards that can score you extra points, give you a second chance, or freeze you or your opponents in your tracks. Are you the type of player to play it safe and bank points before you bust, or are you going to risk it all and go for the bonus points by flipping over seven in a row? Press your luck meets strategy in this addictive card game that's sure to be the greatest card game you’ve ever played!"
+    },
+    {
+        "boardGame": "Flip 7: With a Vengeance",
+        "players": "3, 4, 5, 6, 7, 8, 9, 10+",
+        "age": "8+",
+        "time": 20,
+        "price": 10,
+        "stock": "in stock",
+        "imageUrl": "images/flip7-vengeance.webp",
+        "description": "Flip 7 is back - With a Vengeance! All of the fun of the original game, plus new player interactions and special take-that cards! Flip over cards one by one without flipping the same number twice. Sound easy? Think again! This isn't just any deck of cards… In Flip 7: With A Vengeance, there's only one 1 card, two 2's, three 3’s, etc., plus a bunch of special cards that can cut your points in half, steal any card, or force an opponent to draw four cards! Are you the type of player to play it safe and bank points before you bust, or are you going to risk it all and go for the bonus points by flipping over seven in a row? Press your luck meets strategy in this addictive card game where no one is ever really safe. The hard-boiled sequel to the award-winning, instant classic, Flip 7."
     },
     {
         "boardGame": "Harmonies",
@@ -21,7 +65,9 @@
         "age": "10+",
         "time": 40,
         "price": 35,
-        "imageUrl": "images/harmonies.webp"
+        "stock": "in stock",
+        "imageUrl": "images/harmonies.webp",
+        "description": "In Harmonies, build landscapes by placing colored tokens and create habitats for your animals. To earn the most points and win the game, incorporate the habitats in your landscapes wisely and have as many animals as you can settle there. Starting with the first player and proceeding clockwise, each player will choose a set of 3 terrain tokens from the central area to place on their personal board. They may optionally choose an Animal card from the 5 displayed and/or place an Animal cube from their Animal card(s) on any completed patterns on their board that match their personal Animal cards. There is a 4-card limit per player. After their turn, refill with a new set of 3 tokens and a new Animal card if needed. Placement of the terrain tokens will depend on the personal Animal card goals, and scoring rules for the various terrain types (mountain, field, forest, etc). For example, mountain tiles score based on how high they are (1 tile scores 1, while 3 tiles stacked score 7), but the mountain scores zero if it is not adjacent to at least one other mountain. If all the cubes on a given Animal card have been placed, the card is set aside and a new card can be drawn. The cards are scored at game end based on the highest number that isn't covered by a cube. The games ends when there are no tokens left in the bag to refill the central area, or at least one players has 2 or fewer empty spaces on their player board. Play continues until all players have had an equal turn that round. The player with the highest points is the winner. Optionally, you can use Nature's Spirit cards for richer gameplay. During setup, each player chooses 1 of 2 spirit cards and places a Spirit cube on the card. They follow the same placement rules as Animal cards, but tend to have an ongoing effect once completed. The spirit card does count towards the 4-card hand limit."
     },
     {
         "boardGame": "Harmonies: Pulse",
@@ -29,7 +75,29 @@
         "age": "10+",
         "time": 37,
         "price": 9,
-        "imageUrl": "images/harmonies-pulse.webp"
+        "stock": "in stock",
+        "imageUrl": "images/harmonies-pulse.webp",
+        "description": "With the Pulse expansion for Harmonies, your landscape becomes more dynamic. It introduces additional animal cards with a variety of requirements, which will test your spatial organization. The familiar mechanics are still present, but the decisions become much more demanding. At the heart of the expansion are new three-color patterns, requiring more planning and anticipation in placement. Players who take on these new challenges will have additional scoring opportunities — but they need to think even more carefully about how to integrate each element into their landscape. The beautifully illustrated Animal cards fit seamlessly into the base game while providing a new tactical boost."
+    },
+    {
+        "boardGame": "Heal: Pedal to the Metal",
+        "players": "1, 2, 3, 4, 5, 6",
+        "age": "10+",
+        "time": 45,
+        "price": 70,
+        "stock": "out of stock",
+        "imageUrl": "images/heat.webp",
+        "description": "Based on simple and intuitive hand management, Heat: Pedal to the Metal puts players in the driver's seat of intense car races, jockeying for position to cross the finish line first, while managing their car's speed if they don't want to overheat. Selecting the right upgrades for their car will help them hug the curves and keep their engine cool enough to maintain top speeds. Ultimately, their driving skills will be the key to victory! Drivers can compete in a single race or use the Championship System to play a whole season in one game night, customizing their car before each race to claim the top spot of the podium. They have to be careful as the weather, road conditions, and events will change every race to spice up their championship. Players can also enjoy a solo mode with the Legends Module or add automated drivers as additional opponents in multiplayer games."
+    },
+    {
+        "boardGame": "The Lord of the Rings: Duel for Middle-earth",
+        "players": "2",
+        "age": "10+",
+        "time": 30,
+        "price": 40,
+        "stock": "in stock",
+        "imageUrl": "images/duel-middle-earth.webp",
+        "description": "A dark rumour rises from Mordor. The Eye turns to Middle-earth. The hour has come. The Fellowship is reunited. The Heroes prepare for battle. Will you play as the Fellowship of the Ring to defend the free races and destroy the One Ring? Or will you play as Sauron and pursue Frodo and Sam while deploying your hordes to the gates of the enemy cities? The destiny of Middle-earth is in your hands! A game plays over 3 successive chapters that unfold similarly. On your turn, strengthen your Skills, hoard your treasure, stretch your presence across Middle-earth, rally Races to your cause, or advance the Quest of the Ring. In each chapter players take cards from a display of face-down and face-up cards arranged at the start of a round. A player can take a card only if it's available, that is not partially covered by any other cards. Players can either play the card, paying its cost and placing it in their play area, obtaining its benefit, or discard the card and take as many coins from the reserve as the current chapter. Players can also take a Landmark tile from one of the faceup tiles, paying its cost placing it in their play area. They will be able to immediately place a Fortress pawn on the corresponding region of the central board and benefit from its other effects. Immediately win the game by fulfilling one of the 3 victory conditions: Quest of the Ring - For the Fellowship: If Frodo and Sam reach Mount Doom, they destroy the One Ring and you immediately win the game. For Sauron: If the Nazgûl catch Frodo and Sam, they seize the One Ring and you immediately win the game. Support of the Races - If any player gathers 6 different Race symbols on their Green cards, they rally the support of the Races of Middle-earth and immediately win the game. Conquering Middle-earth - If a player is present in all 7 regions (with a Fortress and/or at least 1 Unit), they dominate Middle-earth and immediately win the game. If none of these three victory conditions are achieved by the end of chapter 3, the player who is present in the most regions of Middle-earth (with a Fortress and/or at least 1 Unit) wins the game. In case of tie, share the victory."
     },
     {
         "boardGame": "The Lord of the Rings: Fate of the Fellowship",
@@ -37,7 +105,9 @@
         "age": "14+",
         "time": 105,
         "price": 80,
-        "imageUrl": "images/fate-of-the-fellowship.webp"
+        "stock": "out of stock",
+        "imageUrl": "images/fate-of-the-fellowship.webp",
+        "description": "As members of The Fellowship and the allies who rise to aid them, you must embark on a journey that may either save or doom Middle-earth. Navigate a world beset by shadow, where every choice forges a new path. The threads of destiny weave together, and the fate of The Free Peoples lies in your valor, friendship, and resolve. Will the One Ring be cast into the fire, or will the bearer be lost to despair? The Lord of the Rings: Fate of the Fellowship is a co-operative game in which each player controls two characters, lending their unique abilities to protect Frodo, battle enemies in pivotal locations, and evade the menacing Nazgûl and Sauron's searching Eye. Each playthrough presents new challenges with 24 different objectives, 14 events, and 13 playable characters. The game is won if the group destroys the One Ring before Frodo loses all hope. A solo adventure is included."
     },
     {
         "boardGame": "Magical Athlete",
@@ -45,7 +115,9 @@
         "age": "6+",
         "time": 30,
         "price": 30,
-        "imageUrl": "images/magical-athlete.webp"
+        "stock": "in stock",
+        "imageUrl": "images/magical-athlete.webp",
+        "description": "Magical Athlete is a racing game of pure chaos! Roll a die and move your racer that many spaces — but all the racers have wacky, game-breaking abilities. Race four times, then whoever has the most points wins! Before the racing begins, players will draft the four racers they will have in the game and choose before each race which to use. Races alternate between the mild side of the board and the wild side of the board. A race ends once two racers have crossed the finish line — with, generally, only these two players receiving points."
     },
     {
         "boardGame": "Sky Team",
@@ -53,7 +125,19 @@
         "age": "10+",
         "time": 20,
         "price": 35,
-        "imageUrl": "images/sky-team.webp"
+        "stock": "in stock",
+        "imageUrl": "images/sky-team.webp",
+        "description": "Sky Team is a co-operative game, exclusively for two players, in which you play a pilot and co-pilot at the controls of an airliner. Your goal is to work together as a team to land your airplane in different airports around the world. To land your plane, you need to silently assign your dice to the correct spaces in your cockpit to balance the axis of your plane, control its speed, deploy the flaps, extend the landing gear, contact the control tower to clear your path, and even have a little coffee to improve your concentration enough to change the value of your dice. If the aircraft tilts too much and stalls, overshoots the airport, or collides with another aircraft, you lose the game...and your pilot's license...and probably your life. From Montreal to Tokyo, each airport offers its own set of challenges. Watch out for the turbulence as this could end up being a bumpy ride!."
+    },
+    {
+        "boardGame": "Wingspan",
+        "players": "1, 2, 3, 4, 5",
+        "age": "10+",
+        "time": 55,
+        "price": 60,
+        "stock": "in stock",
+        "imageUrl": "images/wingspan.webp",
+        "description": "Wingspan is a competitive, medium-weight, card-driven, engine-building board game from Stonemaier Games. It's designed by Elizabeth Hargrave and features 180 birds illustrated by Natalia Rojas and Ana Maria Martinez. You are bird enthusiasts—researchers, bird watchers, ornithologists, and collectors—seeking to discover and attract the best birds to your network of wildlife preserves. Each bird extends a chain of powerful combinations in one of your habitats (actions). These habitats focus on several key aspects of growth: Gain food tokens via custom dice in a birdfeeder dice tower. Lay eggs using egg miniatures in a variety of colors. Draw from hundreds of unique bird cards and play them. The winner is the player with the most points after 4 rounds. From the 7th printing on, the base game box includes Wingspan: Swift-Start Promo Pack."
     },
     {
         "boardGame": "Wingspan Pocket",
@@ -61,6 +145,8 @@
         "age": "8+",
         "time": 30,
         "price": 17,
-        "imageUrl": "images/wingspan-pocket.webp"
+        "stock": "in stock",
+        "imageUrl": "images/wingspan-pocket.webp",
+        "description": "Wingspan Pocket distills the Wingspan experience down to a lighter, shorter, card-driven game that has each player activate a single row of cards on each of their turns. The cards are all double sided: a food side and a bird side. Bird powers are primarily indicated by icons instead of text, and they include a new type of power, ongoing (green) benefits.Wingspan Pocket is designed to be accessible to novice players yet also compelling for more experienced gamers. This is a standalone game in a small box, not an expansion (the birds in it are not compatible with Wingspan). Wingspan Pocket features birds from around the world."
     }
 ]

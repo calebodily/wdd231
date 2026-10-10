@@ -10,8 +10,7 @@
     <meta name="author" content="Cale Bodily">
     <link rel="icon" href="images/favicon.ico">
     <meta property="og:title" content="Rambot Board Game Store Page">
-    <meta property="og:description"
-        content="Find Games, discounts, and purchase Rambot Board Games Store items">
+    <meta property="og:description" content="Find Games, discounts, and purchase Rambot Board Games Store items">
     <meta property="og:url" content="https://calebodily.github.io/wdd231/final-project/rambot-board-game-store.html">
     <meta property="og:image" content="https://calebodily.github.io/wdd231/final-project/images/hero-chess-pieces.webp">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -19,6 +18,9 @@
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/last-modified.js" defer></script>
+    <script src="scripts/board-games.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/order-results.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
@@ -32,8 +34,8 @@
         <button id="ham-btn" class="hamburger" aria-label="Menu Button"></button>
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li class="current"><a href="rambot-board-game.html">Home</a></li>
-                <li><a href="rambot-board-game-store.html">Store</a></li>
+                <li><a href="rambot-board-game.html">Home</a></li>
+                <li class="current"><a href="rambot-board-game-store.html">Store</a></li>
                 <li><a href="rambot-board-game-hangout.html">Hangout</a></li>
             </ul>
         </nav>
@@ -45,9 +47,81 @@
                 can be scheduled over phone at (435) 723-8236 or in person during the event.</p>
         </div>
         <h1>Rambot Board Game's Store</h1>
-        <form>
-            
+
+        <form method="get" action="order-review.html">
+            <h2>Payment Details</h2>
+            <label>Cardholder Name<input type="text" required name="card_name" autocomplete="cc-name"
+                    placeholder="Jonathon Wilding"></label>
+
+            <label>Card Number<input type="text" required name="card_number" inputmode="numeric" autocomplete="cc-number"
+                    pattern="[0-9\s]{13,19}" maxlength="19" placeholder="xxxx xxxx xxxx xxxx"></label>
+
+            <label>Expiration Date<input type="text" required name="card_expiry" inputmode="numeric" autocomplete="cc-exp" placeholder="MM/YY"
+                    pattern="(0[1-9]|1[0-2])\/([0-9]{2})" maxlength="5"></label>
+
+            <label>Security Code<input type="text" required name="card_cvc" inputmode="numeric" autocomplete="cc-csc"
+                    pattern="[0-9]{3,4}" placeholder="123" minlength="3" maxlength="4"></label>
+
+            <label>Zip Code<input type="text" required name="zip_code"></label>
+
+            <label>Email Adress<input type="email" required name="email" autocomplete="email"
+                    placeholder="myemail@gmail.com"></label>
+
+            <label>Phone Number<input type="tel" required name="phone" autocomplete="tel"></label>
+
+            <label class="order">
+                <input type="checkbox" name="order" value="Azul">Azul
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="Bomb Busters">Bomb Busters
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="Catan">Catan
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="Eternal Decks">Eternal Decks
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="Flip 7">Flip 7
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="Flip 7 with a Vengeance">Flip 7 with a Vengeance
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="Harmonies">Harmonies
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="Harmonies: Pulse">Harmonies: Pulse
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="Heat: Pedal to the Medal">Heat: Pedal to the Medal
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="The Lord of the Rings: Duel for Middle-earth">The Lord of the Rings: Duel for Middle-earth
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="The Lord of the Rings: Fate of the Fellowship">The Lord of the Rings: Fate of the Fellowship
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="Magical Athlete">Magical Athlete
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="Sky Team">Sky Team
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="Wingspan">Wingspan
+            </label>
+            <label class="order">
+                <input type="checkbox" name="order" value="Wingspan Pocket">Wingspan Pocket
+            </label>
+
+            <input type="hidden" id="load_time" name="load_time" value="">
+
+            <button type="submit">Submit Order for Review</button>
         </form>
+
+        <button id="all">all</button>
+        <button id="stocked">In Stock</button>
         <div id="card"></div>
     </main>
     <footer>

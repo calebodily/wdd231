@@ -134,6 +134,71 @@ main .events {
     padding: 15px;
 }
 
+#card {
+    grid-column: 1 / 4;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.game-card {
+    box-sizing: border-box;
+    border: solid 1px black;
+    padding: 0 15px 15px;
+    width: 100%;
+    background-color: color-mix(in srgb, var(--primary-color) 60%, transparent);
+    color: var(--secondary-color);
+    margin: 15px 0;
+}
+
+.game-card h2 {
+    border-bottom: solid 1px black;
+    padding-bottom: 15px;
+}
+
+.game-card img {
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3) 1;
+}
+
+.game-card button {
+    display: flex;
+    justify-self: center;
+}
+
+.dialog {
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    color: var(--primary-color);
+}
+
+dialog {
+    background-color: var(--secondary-color);
+}
+
+dialog h2,
+dialog p {
+    color: var(--primary-color);
+}
+
+.modal-header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+}
+
+.modal-close {
+    display: block;
+    width: 44px;
+    height: 44px;
+    float: right;
+}
+
+::backdrop {
+    background-color: color-mix(in srgb, var(--primary-color) 60%, transparent);
+}
+
 /* FOOTER */
 
 footer {
